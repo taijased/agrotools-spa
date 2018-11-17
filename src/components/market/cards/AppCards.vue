@@ -15,7 +15,6 @@
                   @click="toProduct(n)"
                  >
                     <v-layout>
-                        <!-- <img src="http://moldir.su/wp-content/uploads/2016/11/moldir.su_vsye_v_nalichii-300x300.png" class="in_stock"> -->
                         <v-spacer></v-spacer>
                         <img src="https://www.ecco-shoes.ru/assets/projects/desert/img/stock.png" class="in_stock">
                     </v-layout>

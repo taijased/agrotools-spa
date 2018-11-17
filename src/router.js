@@ -5,6 +5,7 @@ Vue.use(Router)
 
 const Index = () => import('./views/Index.vue');
 const Market = () => import('./views/Market.vue');
+const Error404 = () => import('./views/Error404.vue');
 const AllProducts = () => import('./components/market/AllProducts.vue');
 const Product = () => import('./components/market/Product.vue');
 export default new Router({
@@ -32,6 +33,10 @@ export default new Router({
           component: Product
         }
       ]
+    },
+    {
+      path: "*",
+      component: Error404
     }
   ]
 })

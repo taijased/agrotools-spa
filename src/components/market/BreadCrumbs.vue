@@ -2,12 +2,12 @@
     <v-breadcrumbs>
         <v-icon slot="divider">chevron_right</v-icon>
         <v-breadcrumbs-item
-            v-for="item in 3"
-            :disabled="item.disabled"
-            :key="item"
+            v-for="(item, index) in getAllUrl"
+            :key="index"
+            :to="item.route"
             class="gray"
         >
-            {{ 'Link' + item }}
+            {{ item.title}}
         </v-breadcrumbs-item>
         <v-spacer></v-spacer>
         <div>
@@ -34,7 +34,8 @@ import { mapGetters, mapActions } from "vuex";
 export default {
   computed: {
     ...mapGetters({
-      getViewCards: "breadcrumbs/getViewCards"
+      getViewCards: "breadcrumbs/getViewCards",
+      getAllUrl: "breadcrumbs/getAllUrl",
     })
   },
   methods: {

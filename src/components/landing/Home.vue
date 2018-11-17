@@ -2,14 +2,14 @@
 	<v-content>
       <Header/>
       <section>
-        <v-parallax src="https://cdn.vuetifyjs.com/images/parallax/material.jpg" height="600">
+        <v-parallax src="https://vuetifyjs.com/themes/parallax-starter/assets/hero.jpeg" height="600">
           <v-layout
             column
             align-center
             justify-center
             class="white--text"
           >
-            <img src="https://png.icons8.com/color/160/gears.png" alt="Vuetify.js" height="200">
+            <img src="http://s1.iconbird.com/ico/2013/12/566/w256h2561387223970serpmolot256x256.png" alt="Vuetify.js" height="200">
             <h1 class="white--text mb-2 display-1 text-xs-center">
             	Магазин сельхоз запчасти, инструменты, материалы, РТИ.
             </h1>

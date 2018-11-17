@@ -40,6 +40,18 @@
 </template>
 
 <script>
+import { mapGetters, mapActions } from "vuex";
+
 export default {
-}
+  data() {
+    return {
+      titleName: "Название товара"
+    };
+  },
+  methods: {
+    ...mapActions({
+      setNewUrl: "breadcrumbs/setNewUrl"
+    })
+  },
+};
 </script>

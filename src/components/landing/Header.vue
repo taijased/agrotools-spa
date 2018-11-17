@@ -34,7 +34,7 @@
               class="hidden-md-and-up"
              ></v-toolbar-side-icon>
               
-            <img src="https://png.icons8.com/color/160/gears.png" alt="Vuetify.js" height="100%">
+            <img src="http://s1.iconbird.com/ico/2013/12/566/w256h2561387223970serpmolot256x256.png" alt="Vuetify.js" height="100%">
          
             <v-spacer></v-spacer>
             <v-toolbar-items 
